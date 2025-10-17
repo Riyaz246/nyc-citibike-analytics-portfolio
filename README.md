@@ -14,7 +14,7 @@ The data is from the `bigquery-public-data.new_york_citibike.citibike_trips` pub
 ## Dashboard
 An interactive dashboard was created using Looker Studio to visualize the key findings from the analysis. The dashboard provides insights into rider behavior, station popularity, and usage patterns by user type.
 
-**[View the Live Dashboard Here](PASTE YOUR LOOKER STUDIO LINK HERE)**
+**https://lookerstudio.google.com/reporting/e827e443-454a-4828-9c85-b786a7e0fd50**
 
 
 

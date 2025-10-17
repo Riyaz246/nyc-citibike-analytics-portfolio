@@ -12,7 +12,10 @@ This project analyzes historical trip data from NYC's Citi Bike program to under
 The data is from the `bigquery-public-data.new_york_citibike.citibike_trips` public dataset available in Google BigQuery.
 
 ## Dashboard
-[Link to be added once the dashboard is complete]
+An interactive dashboard was created using Looker Studio to visualize the key findings from the analysis. The dashboard provides insights into rider behavior, station popularity, and usage patterns by user type.
+
+**[View the Live Dashboard Here](PASTE YOUR LOOKER STUDIO LINK HERE)**
+
 
 
 ## SQL Queries

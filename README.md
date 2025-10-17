@@ -14,5 +14,8 @@ The data is from the `bigquery-public-data.new_york_citibike.citibike_trips` pub
 ## Dashboard
 [Link to be added once the dashboard is complete]
 
+
 ## SQL Queries
-[Link to the folder containing SQL scripts will be added here]
+The queries used for data exploration and for creating the final view for the dashboard can be found in the `sql_queries` folder. The main script is:
+
+* **[`analysis_queries.sql`](sql_queries/analysis_queries.sql)**: This file contains all the SQL code for checking average trip duration, finding the most popular stations, comparing user types, and creating the final `VIEW` used by Looker Studio.

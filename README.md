@@ -22,3 +22,21 @@ An interactive dashboard was created using Looker Studio to visualize the key fi
 The queries used for data exploration and for creating the final view for the dashboard can be found in the `sql_queries` folder. The main script is:
 
 * **[`analysis_queries.sql`](sql_queries/analysis_queries.sql)**: This file contains all the SQL code for checking average trip duration, finding the most popular stations, comparing user types, and creating the final `VIEW` used by Looker Studio.
+
+
+graph TD
+    subgraph Data Sources
+        DataSource[NYC Citi Bike Dataset (50M+ Records)]
+    end
+
+    subgraph Analysis Platform
+        Staging[Cloud Storage (Staging)]
+        BigQuery[BigQuery Dataset]
+        Analyst[Threat Hunter / Data Analyst]
+        Reports[UBA Baselines & Anomaly Reports]
+    end
+    
+    DataSource -- 1. Load --> Staging
+    Staging -- 2. Ingest --> BigQuery
+    Analyst -- 3. Run Advanced SQL (Aggregates, Partitions) --> BigQuery
+    BigQuery -- 4. Output Results --> Reports
